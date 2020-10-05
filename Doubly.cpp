@@ -32,6 +32,7 @@ void doubly_ll::add_begin(int n)
 	}
 }
 
+//main function
 int main()
 {
 	int data,i;
