@@ -1,10 +1,12 @@
 #include<iostream>
+# eager to learn new things
 
 using namespace std;
 
 int main()
 {
 	int i,j,temp,n;
+	cout<<"Enter your data"<<endl;
 
 	cout<<"Enter the number of elements"<<endl;
 	cin>>n;
