@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	int i,j,temp,n;
+	int i,j,t,n;
 
 	cout<<"Enter the number of elements"<<endl;
 	cin>>n;
@@ -22,7 +22,7 @@ int main()
 		{
 			if(arr[j]>arr[j+1])
 			{
-				temp=arr[j];
+				t=arr[j];
 				arr[j]=arr[j+1];
 				arr[j+1]=temp;
 			}
