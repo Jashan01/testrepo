@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Input Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+    <div class="container">
+        <div class="wrapper">
+
+            <h1 class="heading">Input Validator</h1>
+            <label><b>Enter Input:</b></label><input type="text" id="fname" placeholder="Input"><br><br>
+
+            <div id ="input-checkbox">
+                <input type="checkbox" class="rules" checked>
+                <label>Length > 10? </label><br><br>
+    
+                <input type="checkbox" class="rules" checked>
+                <label>Min 2 special character ?</label><br><br>
+    
+                <input type="checkbox" class="rules" checked>
+                <label>Min 2 uppecase character ?</label><br><br>
+    
+                <input type="checkbox" class="rules" checked>
+                <label>Consecutive character different? </label><br><br>
+            </div>
+
+            <button onclick="validate()">Validate</button>
+
+            <div id="output">
+                <!-- output  -->
+            </div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
